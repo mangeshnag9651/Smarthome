@@ -20,7 +20,7 @@ steps:
 - task: Gradle@3
   inputs:
     gradleWrapperFile: 'gradlew'
-    workingDirectory: 'application/SmartHomeApplication'
+    workingDirectory: 'application/SmartHomeApplication/gradlew'
     tasks: 'build'
     publishJUnitResults: false
     javaHomeOption: 'JDKVersion'
